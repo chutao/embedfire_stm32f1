@@ -1,0 +1,19 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "markdown",
+    "yaml",
+    "json",
+    "python"
+  ],
+
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.formatting.provider": "black",
+  "prettier.singleQuote": true,
+
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver",
+    "/opt/arm/**/arm-none-eabi*"
+  ]
+}
